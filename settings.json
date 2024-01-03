@@ -45,6 +45,10 @@
     "emptyIndent.highlightIndent": false,
     "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
 
+    /* PHP_Codesniffer */
+    "phpcs.enable": true,
+    "phpcs.standard": "Drupal,DrupalPractice",
+
     /* PHP Sniffer & Beautifier Setup: */
     "phpsab.snifferEnable": true,
     "phpsab.standard": "Drupal,DrupalPractice",
