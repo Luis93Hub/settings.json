@@ -1,0 +1,71 @@
+{
+    "breadcrumbs.enabled": true,
+    "css.validate": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full",
+    "editor.insertSpaces": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": true,
+    "editor.rulers": [
+      80
+    ],
+    "files.associations": {
+      "*.inc": "php",
+      "*.module": "php",
+      "*.install": "php",
+      "*.theme": "php",
+      "*.profile": "php",
+      "*.tpl.php": "php",
+      "*.test": "php",
+      "*.php": "php",
+      "*.info": "ini",
+      "*.html": "twig",
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.restoreUndoStack": false,
+    "files.insertFinalNewline": true,
+    "html.format.enable": true,
+    "html.format.wrapLineLength": 80,
+    "telemetry.telemetryLevel": "off",
+
+    /* PHP Intelephense (bmewburn.vscode-intelephense-client) */
+    "intelephense.environment.includePaths": [
+      "core/",
+      "core/includes",
+      "../vendor/"
+    ],
+
+    /* Empty Indent */
+    "emptyIndent.removeIndent": true,
+    "emptyIndent.highlightIndent": false,
+    "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+
+    /* PHP Sniffer & Beautifier Setup: */
+    "phpsab.snifferEnable": true,
+    "phpsab.standard": "Drupal,DrupalPractice",
+    "phpsab.snifferArguments": ["--extensions=inc,theme,install,module,profile,php,phtml"],
+    "phpsab.fixerArguments": ["--extensions=inc,theme,install,module,profile,php,phtml"],
+    "phpsab.fixerEnable": true,
+      "[php]": {"editor.defaultFormatter": "valeryanm.vscode-phpsab"},
+
+    /*PHP validation */
+    "php.validate.enable": true,
+    "php.validate.run": "onType",
+    "intelephense.environment.phpVersion": "8.2",
+
+    /* PHP Docblocks */
+    "php-docblocker.gap": true,
+    "php-docblocker.useShortNames": true,
+
+    /* Compose */
+    "composer.enabled": true,
+    "composer.executablePath": "/usr/local/bin/composer",
+
+    /* Twig Language */
+    "emmet.includeLanguages": {"twig": "html"},
+  }
