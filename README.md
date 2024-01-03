@@ -1,2 +1,2 @@
-# settings.json
+# Settings.json
 Editor settings VSC for Drupal PHP, CSS, Js, HTML.
