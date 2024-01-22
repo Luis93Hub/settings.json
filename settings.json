@@ -60,7 +60,6 @@
     /*PHP validation */
     "php.validate.enable": true,
     "php.validate.run": "onType",
-    "intelephense.environment.phpVersion": "8.2",
 
     /* PHP Docblocks */
     "php-docblocker.gap": true,
